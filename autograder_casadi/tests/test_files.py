@@ -12,3 +12,6 @@ class TestFiles(unittest.TestCase):
             print('Missing {0}'.format(path))
         self.assertEqual(len(missing_files), 0, 'Missing some required files!')
         print('All required files submitted!')
+
+# A = TestFiles()
+# A.test_submitted_files()
